@@ -16,7 +16,7 @@ def makeCommits(days: int):
         os.system('git commit --date="'+ dates +'" -m "First commit for the day!"')
 
         # Continue with the next day
-        makeCommits(days -6)  # No need to multiply, just call recursively
+        makeCommits(days -5)  # No need to multiply, just call recursively
 
 # Call the function
-makeCommits(120)
+makeCommits(115)
